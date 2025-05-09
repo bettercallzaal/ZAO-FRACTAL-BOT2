@@ -109,9 +109,22 @@ class FractalNameModal(discord.ui.Modal, title="Fractal Group Name"):
         max_length=100
     )
     
+    def __init__(self, voice_members=None):
+        super().__init__()
+        self.voice_members = voice_members or []
+    
     async def on_submit(self, interaction: discord.Interaction):
         """Handle modal submission."""
-        # Create a new thread for the fractal group
+        # Make sure we're using a text channel to create the thread
+        # Voice channels don't support threads
+        if not isinstance(interaction.channel, discord.TextChannel):
+            await interaction.response.send_message(
+                "Error: This command must be used in a text channel.",
+                ephemeral=True
+            )
+            return
+            
+        # Create a new thread for the fractal group in the text channel where the command was used
         thread = await interaction.channel.create_thread(
             name=f"Fractal: {self.group_name.value}",
             type=discord.ChannelType.public_thread,
@@ -120,6 +133,11 @@ class FractalNameModal(discord.ui.Modal, title="Fractal Group Name"):
         
         # Create a new fractal group
         fractal_group = FractalGroup(self.group_name.value, thread, interaction.user)
+        
+        # Add voice channel members to the group
+        for member in self.voice_members:
+            if member != interaction.user:  # Facilitator is already added
+                fractal_group.add_member(member)
         
         # Store the fractal group in the active fractal groups dictionary
         active_fractal_groups[thread.id] = fractal_group
@@ -137,10 +155,14 @@ class FractalNameModal(discord.ui.Modal, title="Fractal Group Name"):
         await thread.send(
             f"Welcome to the **{fractal_group.name}** fractal group!\n"
             f"This group is facilitated by {fractal_group.facilitator.mention}.\n"
-            f"Use the button below to join this group (max 6 members).",
+            f"All members from the voice channel have been automatically added.",
             embed=embed,
             view=view
         )
+        
+        # Mention all members to notify them
+        mentions = " ".join([member.mention for member in fractal_group.members])
+        await thread.send(f"Group members: {mentions}")
         
         # Respond to the interaction
         await interaction.response.send_message(
@@ -148,6 +170,47 @@ class FractalNameModal(discord.ui.Modal, title="Fractal Group Name"):
             f"Check the new thread: {thread.mention}",
             ephemeral=True
         )
+        
+        # Start the level 6 poll immediately
+        from respect_commands import RespectVote, RespectVoteView
+        
+        # Create a new respect vote
+        respect_vote = RespectVote(thread, fractal_group.members)
+        
+        # Store in active votes (from respect_commands)
+        from respect_commands import active_votes
+        active_votes[thread.id] = respect_vote
+        
+        # Create the embed for the first round
+        poll_embed = discord.Embed(
+            title="Level 6 Poll - Round 1",
+            description="Everyone can vote simultaneously. Select a member who made impactful contributions.",
+            color=0x5865F2
+        )
+        
+        # Add candidates field
+        candidates_text = "\n".join([f"• {candidate.mention}" for candidate in fractal_group.members])
+        poll_embed.add_field(name="Candidates", value=candidates_text, inline=False)
+        
+        # Add voting instructions
+        poll_embed.add_field(
+            name="Instructions", 
+            value="• Everyone can vote at the same time\n• You cannot vote for yourself\n• The round ends when everyone votes or someone gets 50% of votes", 
+            inline=False
+        )
+        
+        # Create the view
+        poll_view = RespectVoteView(respect_vote)
+        
+        # Send the poll message
+        poll_message = await thread.send(
+            "Starting the Level 6 Poll! Round 1 has begun.",
+            embed=poll_embed,
+            view=poll_view
+        )
+        
+        # Store the message for later updates
+        respect_vote.message = poll_message
 
 class FractalCog(commands.Cog):
     """Cog for fractal group-related commands."""
@@ -155,12 +218,45 @@ class FractalCog(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
     
-    @app_commands.command(name="fractalgroup", description="Create a new fractal group for a meeting")
+    @app_commands.command(name="fractalgroup", description="Create a new fractal group for a meeting and start level 6 poll")
     async def fractal_group(self, interaction: discord.Interaction):
-        """Create a new fractal group for a meeting."""
+        """Create a new fractal group for a meeting and start level 6 poll."""
         try:
+            # Store the text channel where the command was used
+            text_channel = interaction.channel
+            
+            # Check if the user is in a voice channel
+            if not interaction.user.voice:
+                await interaction.response.send_message(
+                    embed=create_error_embed("You need to be in a voice channel to use this command."),
+                    ephemeral=True
+                )
+                return
+            
+            # Get members from the voice channel
+            try:
+                voice_channel = interaction.user.voice.channel
+                voice_members = voice_channel.members
+                
+                # Filter out bots
+                voice_members = [member for member in voice_members if not member.bot]
+            except AttributeError:
+                # Fallback if we can't access voice members for some reason
+                await interaction.response.send_message(
+                    embed=create_error_embed("Could not access voice channel members. Please try again."),
+                    ephemeral=True
+                )
+                return
+            
+            if len(voice_members) < 2:
+                await interaction.response.send_message(
+                    embed=create_error_embed("There need to be at least 2 members in the voice channel."),
+                    ephemeral=True
+                )
+                return
+            
             # Show the modal to get the fractal group name
-            modal = FractalNameModal()
+            modal = FractalNameModal(voice_members)
             await interaction.response.send_modal(modal)
         
         except Exception as e:

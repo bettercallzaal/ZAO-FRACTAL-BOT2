@@ -145,11 +145,19 @@ class TimerCog(commands.Cog):
             timer_view = TimerView(channel_id, "Member")
             
             # Create and show the modal to get the member name
-            modal = MemberNameModal(timer_view)
-            await interaction.response.send_modal(modal)
-            
-            # Store the timer in the active timers dictionary
-            active_timers[channel_id] = timer_view
+            try:
+                modal = MemberNameModal(timer_view)
+                await interaction.response.send_modal(modal)
+                
+                # Store the timer in the active timers dictionary
+                active_timers[channel_id] = timer_view
+            except Exception as modal_error:
+                # Handle specific modal error
+                print(f"Error showing modal: {str(modal_error)}")
+                await interaction.response.send_message(
+                    embed=create_error_embed(f"Error starting timer: {str(modal_error)}"),
+                    ephemeral=True
+                )
         
         except Exception as e:
             await handle_command_error(interaction, e)

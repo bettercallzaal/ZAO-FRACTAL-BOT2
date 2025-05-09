@@ -45,11 +45,13 @@ class FractalBot(commands.Bot):
         from fractal_commands import setup as fractal_setup
         from respect_commands import setup as respect_setup
         from summary_commands import setup as summary_setup
+        from voice_commands import setup as voice_setup
         
         await timer_setup(self)
         await fractal_setup(self)
         await respect_setup(self)
         await summary_setup(self)
+        await voice_setup(self)
 
 # Initialize the bot
 bot = FractalBot()
