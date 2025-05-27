@@ -176,6 +176,56 @@ For detailed deployment instructions, see [BOT-HOSTING-GUIDE.md](BOT-HOSTING-GUI
 
 [MIT License](LICENSE)
 
+## Future Features
+
+The following features are planned for future releases:
+
+### Performance and Scalability
+- Implement proper automatic sharding for large-scale deployments
+- Add connection pooling for database operations
+- Optimize memory usage with lazy loading and smarter caching
+- Distributed hosting capability across multiple servers
+
+### Code Structure Improvements
+- Rename all cog files to include module name (e.g., `fractal_cog.py` instead of just `cog.py`)
+- Implement comprehensive command error handling
+- Add rate limiting to all commands
+- Use ephemeral responses for all administrative commands
+
+### Documentation Enhancements
+- Installation diagrams and visual guides
+- Dedicated COMMANDS.md with examples and screenshots
+- CONTRIBUTING.md with code style guides
+- Security documentation for API key handling
+
+### User Experience Improvements
+- Command autocompletion for parameters
+- Interactive help command with UI components
+- Command examples in help text
+- Customizable command prefixes per server
+
+### ENS & Ethereum Integration
+- Enhanced ENS record caching to reduce API calls
+- Full ENS reverse resolution for all address displays
+- ENS avatar integration in user profiles
+- Multi-provider fallback for blockchain connections
+
+### New Features
+- Command analytics dashboard for admins
+- Scheduled events for recurring fractal group meetings
+- Localization support for multiple languages
+- Bot status website with uptime monitoring
+- Voice channel integration for fractal meetings
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+### Code Structure Guidelines
+
+When contributing to this project, please follow these naming conventions:
+
+- Cog files should be named with their module name, e.g., `fractal_cog.py` instead of just `cog.py`
+- Follow PEP 8 style guidelines for Python code
+- Include docstrings for all classes and functions
+- Add type hints where appropriate
