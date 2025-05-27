@@ -13,6 +13,16 @@ if not BOT_TOKEN:
         "Example: DISCORD_TOKEN=your_token_here"
     )
 
+# Application ID (required for slash commands)
+APPLICATION_ID = os.getenv('APPLICATION_ID')
+if not APPLICATION_ID:
+    print("WARNING: No APPLICATION_ID found in .env file. Slash commands may not work properly.")
+else:
+    try:
+        APPLICATION_ID = int(APPLICATION_ID)
+    except ValueError:
+        print(f"WARNING: APPLICATION_ID '{APPLICATION_ID}' is not a valid integer. Slash commands may not work properly.")
+
 COMMAND_PREFIX = '!'
 DEBUG_MODE = os.getenv('DEBUG_MODE', 'false').lower() == 'true'
 
