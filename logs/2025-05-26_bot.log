@@ -1,0 +1,359 @@
+2025-05-26 22:41:13 - FractalBot - INFO - === Starting bot setup ===
+2025-05-26 22:41:14 - FractalBot - ERROR - Failed to load cog ens: Extension 'cogs.ens.cog' raised an error: ImportError: attempted relative import beyond top-level package
+2025-05-26 22:41:14 - FractalBot - ERROR - Failed to load cog timer: Extension 'cogs.timer.cog' raised an error: ImportError: attempted relative import beyond top-level package
+2025-05-26 22:41:14 - FractalBot - ERROR - Failed to load cog respect: Extension 'cogs.respect.cog' raised an error: ImportError: attempted relative import beyond top-level package
+2025-05-26 22:41:14 - FractalBot - ERROR - Failed to load cog fractal: Extension 'cogs.fractal.cog' raised an error: ImportError: attempted relative import beyond top-level package
+2025-05-26 22:41:14 - FractalBot - ERROR - Failed to load cog voice: Extension 'cogs.voice.cog' raised an error: ImportError: attempted relative import beyond top-level package
+2025-05-26 22:41:14 - FractalBot - ERROR - Failed to load cog zao: Extension 'cogs.zao.cog' raised an error: ImportError: attempted relative import beyond top-level package
+2025-05-26 22:41:14 - FractalBot - ERROR - Failed to load cog summary: Extension 'cogs.summary.cog' raised an error: ImportError: attempted relative import beyond top-level package
+2025-05-26 22:41:14 - FractalBot - INFO - All cogs loaded successfully
+2025-05-26 22:41:14 - FractalBot - INFO - Syncing commands...
+2025-05-26 22:41:14 - FractalBot - ERROR - Bot is not in any guilds
+2025-05-26 22:41:14 - FractalBot - INFO - === Bot setup complete ===
+2025-05-26 22:41:52 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 22:41:52 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 22:49:35 - FractalBot - INFO - === Starting bot setup ===
+2025-05-26 22:49:35 - FractalBot - INFO - Loaded cog: ens
+2025-05-26 22:49:35 - FractalBot - ERROR - Failed to load cog timer: Extension 'cogs.timer.cog' raised an error: ImportError: attempted relative import beyond top-level package
+2025-05-26 22:49:35 - FractalBot - INFO - Loaded cog: respect
+2025-05-26 22:49:35 - FractalBot - ERROR - Failed to load cog fractal: Extension 'cogs.fractal.cog' raised an error: ImportError: attempted relative import beyond top-level package
+2025-05-26 22:49:35 - FractalBot - INFO - Loaded cog: voice
+2025-05-26 22:49:35 - FractalBot - INFO - Loaded cog: zao
+2025-05-26 22:49:35 - FractalBot - INFO - Loaded cog: summary
+2025-05-26 22:49:35 - FractalBot - INFO - All cogs loaded successfully
+2025-05-26 22:49:35 - FractalBot - INFO - Syncing commands...
+2025-05-26 22:49:35 - FractalBot - ERROR - Bot is not in any guilds
+2025-05-26 22:49:35 - FractalBot - INFO - === Bot setup complete ===
+2025-05-26 22:49:38 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 22:49:38 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 22:50:54 - FractalBot - INFO - === Starting bot setup ===
+2025-05-26 22:50:54 - FractalBot - INFO - Loaded cog: ens
+2025-05-26 22:50:54 - FractalBot - INFO - Loaded cog: timer
+2025-05-26 22:50:54 - FractalBot - INFO - Loaded cog: respect
+2025-05-26 22:50:54 - FractalBot - INFO - Loaded cog: fractal
+2025-05-26 22:50:54 - FractalBot - INFO - Loaded cog: voice
+2025-05-26 22:50:54 - FractalBot - INFO - Loaded cog: zao
+2025-05-26 22:50:54 - FractalBot - INFO - Loaded cog: summary
+2025-05-26 22:50:54 - FractalBot - INFO - All cogs loaded successfully
+2025-05-26 22:50:54 - FractalBot - INFO - Syncing commands...
+2025-05-26 22:50:54 - FractalBot - ERROR - Bot is not in any guilds
+2025-05-26 22:50:54 - FractalBot - INFO - === Bot setup complete ===
+2025-05-26 22:50:57 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 22:50:57 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 22:54:32 - FractalBot - INFO - === Starting bot setup ===
+2025-05-26 22:54:32 - FractalBot - INFO - Loaded cog: ens
+2025-05-26 22:54:32 - FractalBot - INFO - Loaded cog: timer
+2025-05-26 22:54:32 - FractalBot - INFO - Loaded cog: respect
+2025-05-26 22:54:32 - FractalBot - INFO - Loaded cog: fractal
+2025-05-26 22:54:32 - FractalBot - INFO - Loaded cog: voice
+2025-05-26 22:54:32 - FractalBot - INFO - Loaded cog: zao
+2025-05-26 22:54:32 - FractalBot - INFO - Loaded cog: summary
+2025-05-26 22:54:32 - FractalBot - INFO - All cogs loaded successfully
+2025-05-26 22:54:32 - FractalBot - INFO - Syncing commands...
+2025-05-26 22:54:32 - FractalBot - ERROR - Bot is not in any guilds
+2025-05-26 22:54:32 - FractalBot - INFO - === Bot setup complete ===
+2025-05-26 22:54:34 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 22:54:34 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 22:54:34 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 22:54:34 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 22:56:21 - FractalBot - INFO - === Starting bot setup ===
+2025-05-26 22:56:21 - FractalBot - INFO - Loaded cog: ens
+2025-05-26 22:56:21 - FractalBot - INFO - Loaded cog: timer
+2025-05-26 22:56:21 - FractalBot - INFO - Loaded cog: respect
+2025-05-26 22:56:21 - FractalBot - INFO - Loaded cog: fractal
+2025-05-26 22:56:21 - FractalBot - INFO - Loaded cog: voice
+2025-05-26 22:56:21 - FractalBot - INFO - Loaded cog: zao
+2025-05-26 22:56:21 - FractalBot - INFO - Loaded cog: summary
+2025-05-26 22:56:21 - FractalBot - INFO - All cogs loaded successfully
+2025-05-26 22:56:21 - FractalBot - INFO - Syncing commands...
+2025-05-26 22:56:21 - FractalBot - ERROR - Bot is not in any guilds
+2025-05-26 22:56:21 - FractalBot - INFO - === Bot setup complete ===
+2025-05-26 22:56:24 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 22:56:24 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 22:56:24 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 22:56:24 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:02:31 - FractalBot - INFO - === Starting bot setup ===
+2025-05-26 23:02:32 - FractalBot - INFO - Loaded cog: ens
+2025-05-26 23:02:32 - FractalBot - INFO - Loaded cog: timer
+2025-05-26 23:02:32 - FractalBot - ERROR - Failed to load cog respect: Extension 'cogs.respect.cog' raised an error: NameError: name 'app_commands' is not defined
+2025-05-26 23:02:32 - FractalBot - INFO - Loaded cog: fractal
+2025-05-26 23:02:32 - FractalBot - INFO - Loaded cog: voice
+2025-05-26 23:02:32 - FractalBot - INFO - Loaded cog: zao
+2025-05-26 23:02:32 - FractalBot - INFO - Loaded cog: summary
+2025-05-26 23:02:32 - FractalBot - INFO - All cogs loaded successfully
+2025-05-26 23:02:32 - FractalBot - INFO - Syncing commands...
+2025-05-26 23:02:32 - FractalBot - ERROR - Bot is not in any guilds
+2025-05-26 23:02:32 - FractalBot - INFO - === Bot setup complete ===
+2025-05-26 23:02:34 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:02:34 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:02:34 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:02:34 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:02:39 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:04:12 - FractalBot - INFO - === Starting bot setup ===
+2025-05-26 23:04:13 - FractalBot - INFO - Loaded cog: ens
+2025-05-26 23:04:13 - FractalBot - INFO - Loaded cog: timer
+2025-05-26 23:04:13 - FractalBot - ERROR - Failed to load cog respect: Extension 'cogs.respect.cog' raised an error: NameError: name 'app_commands' is not defined
+2025-05-26 23:04:13 - FractalBot - INFO - Loaded cog: fractal
+2025-05-26 23:04:13 - FractalBot - INFO - Loaded cog: voice
+2025-05-26 23:04:13 - FractalBot - INFO - Loaded cog: zao
+2025-05-26 23:04:13 - FractalBot - INFO - Loaded cog: summary
+2025-05-26 23:04:13 - FractalBot - INFO - All cogs loaded successfully
+2025-05-26 23:04:13 - FractalBot - INFO - Syncing commands...
+2025-05-26 23:04:13 - FractalBot - ERROR - Bot is not in any guilds
+2025-05-26 23:04:13 - FractalBot - INFO - === Bot setup complete ===
+2025-05-26 23:04:15 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:04:15 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:04:15 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:04:15 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:04:48 - FractalBot - INFO - === Starting bot setup ===
+2025-05-26 23:04:49 - FractalBot - INFO - Loaded cog: ens
+2025-05-26 23:04:49 - FractalBot - INFO - Loaded cog: timer
+2025-05-26 23:04:49 - FractalBot - INFO - Loaded cog: respect
+2025-05-26 23:04:49 - FractalBot - INFO - Loaded cog: fractal
+2025-05-26 23:04:49 - FractalBot - INFO - Loaded cog: voice
+2025-05-26 23:04:49 - FractalBot - INFO - Loaded cog: zao
+2025-05-26 23:04:49 - FractalBot - INFO - Loaded cog: summary
+2025-05-26 23:04:49 - FractalBot - INFO - All cogs loaded successfully
+2025-05-26 23:04:49 - FractalBot - INFO - Syncing commands...
+2025-05-26 23:04:49 - FractalBot - ERROR - Bot is not in any guilds
+2025-05-26 23:04:49 - FractalBot - INFO - === Bot setup complete ===
+2025-05-26 23:04:51 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:04:51 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:04:51 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:04:51 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:09:17 - FractalBot - INFO - === Starting bot setup ===
+2025-05-26 23:09:17 - FractalBot - INFO - Loaded cog: ens
+2025-05-26 23:09:17 - FractalBot - INFO - Loaded cog: timer
+2025-05-26 23:09:17 - FractalBot - INFO - Loaded cog: respect
+2025-05-26 23:09:17 - FractalBot - INFO - Loaded cog: fractal
+2025-05-26 23:09:17 - FractalBot - INFO - Loaded cog: voice
+2025-05-26 23:09:17 - FractalBot - INFO - Loaded cog: zao
+2025-05-26 23:09:17 - FractalBot - INFO - Loaded cog: summary
+2025-05-26 23:09:17 - FractalBot - INFO - All cogs loaded successfully
+2025-05-26 23:09:17 - FractalBot - INFO - Syncing commands...
+2025-05-26 23:09:17 - FractalBot - ERROR - Bot is not in any guilds
+2025-05-26 23:09:17 - FractalBot - INFO - === Bot setup complete ===
+2025-05-26 23:09:20 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:09:20 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:09:20 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:09:20 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:10:25 - FractalBot - INFO - === Starting bot setup ===
+2025-05-26 23:10:25 - FractalBot - INFO - Loaded cog: ens
+2025-05-26 23:10:25 - FractalBot - INFO - Loaded cog: timer
+2025-05-26 23:10:25 - FractalBot - INFO - Loaded cog: respect
+2025-05-26 23:10:25 - FractalBot - INFO - Loaded cog: fractal
+2025-05-26 23:10:25 - FractalBot - INFO - Loaded cog: voice
+2025-05-26 23:10:25 - FractalBot - INFO - Loaded cog: zao
+2025-05-26 23:10:25 - FractalBot - INFO - Loaded cog: summary
+2025-05-26 23:10:25 - FractalBot - INFO - All cogs loaded successfully
+2025-05-26 23:10:25 - FractalBot - INFO - Syncing commands...
+2025-05-26 23:10:25 - FractalBot - ERROR - Bot is not in any guilds
+2025-05-26 23:10:25 - FractalBot - INFO - === Bot setup complete ===
+2025-05-26 23:10:28 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:10:28 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:10:28 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:10:28 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:17:38 - FractalBot - INFO - === Starting bot setup ===
+2025-05-26 23:17:39 - FractalBot - INFO - Loaded cog: ens
+2025-05-26 23:17:39 - FractalBot - INFO - Loaded cog: timer
+2025-05-26 23:17:39 - FractalBot - INFO - Loaded cog: respect
+2025-05-26 23:17:39 - FractalBot - INFO - Loaded cog: fractal
+2025-05-26 23:17:39 - FractalBot - INFO - All cogs loaded successfully
+2025-05-26 23:17:39 - FractalBot - INFO - Syncing commands...
+2025-05-26 23:17:39 - FractalBot - ERROR - Bot is not in any guilds
+2025-05-26 23:17:39 - FractalBot - INFO - === Bot setup complete ===
+2025-05-26 23:17:41 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:17:41 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:17:41 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:17:41 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:18:16 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:20:08 - FractalBot - INFO - === Starting bot setup ===
+2025-05-26 23:20:09 - FractalBot - INFO - Loaded cog: ens
+2025-05-26 23:20:09 - FractalBot - INFO - Loaded cog: timer
+2025-05-26 23:20:09 - FractalBot - INFO - Loaded cog: respect
+2025-05-26 23:20:09 - FractalBot - INFO - Loaded cog: fractal
+2025-05-26 23:20:09 - FractalBot - INFO - All cogs loaded successfully
+2025-05-26 23:20:09 - FractalBot - INFO - Syncing commands...
+2025-05-26 23:20:09 - FractalBot - ERROR - Bot is not in any guilds
+2025-05-26 23:20:09 - FractalBot - INFO - === Bot setup complete ===
+2025-05-26 23:20:11 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:20:11 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:20:11 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:20:11 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:20:20 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:23:40 - FractalBot - INFO - === Starting bot setup ===
+2025-05-26 23:23:40 - FractalBot - INFO - Loaded cog: ens
+2025-05-26 23:23:40 - FractalBot - INFO - Loaded cog: timer
+2025-05-26 23:23:40 - FractalBot - INFO - Loaded cog: respect
+2025-05-26 23:23:40 - FractalBot - INFO - Loaded cog: fractal
+2025-05-26 23:23:40 - FractalBot - INFO - All cogs loaded successfully
+2025-05-26 23:23:40 - FractalBot - INFO - Syncing commands...
+2025-05-26 23:23:40 - FractalBot - ERROR - Bot is not in any guilds
+2025-05-26 23:23:40 - FractalBot - INFO - === Bot setup complete ===
+2025-05-26 23:23:42 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:23:42 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:23:42 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:23:42 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:23:50 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:24:47 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:26:53 - FractalBot - INFO - === Starting bot setup ===
+2025-05-26 23:26:53 - FractalBot - INFO - Loaded cog: ens
+2025-05-26 23:26:53 - FractalBot - INFO - Loaded cog: timer
+2025-05-26 23:26:53 - FractalBot - INFO - Loaded cog: respect
+2025-05-26 23:26:53 - FractalBot - INFO - Loaded cog: fractal
+2025-05-26 23:26:53 - FractalBot - INFO - All cogs loaded successfully
+2025-05-26 23:26:53 - FractalBot - INFO - === Bot setup complete ===
+2025-05-26 23:26:56 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:26:56 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:26:56 - FractalBot - INFO - Syncing commands...
+2025-05-26 23:26:56 - FractalBot - INFO - Found guild: THE ZAO (ID: 1127115902010277989)
+2025-05-26 23:26:56 - FractalBot - INFO - Registered commands:
+2025-05-26 23:26:56 - FractalBot - INFO -   - /sync: Manually sync commands (admin only)
+2025-05-26 23:26:56 - FractalBot - INFO -   - /ens: Resolve an ENS name to its Ethereum address
+2025-05-26 23:26:56 - FractalBot - INFO -   - /address: Look up an Ethereum address's ENS names
+2025-05-26 23:26:56 - FractalBot - INFO -   - /timer: Set a timer for a specified duration
+2025-05-26 23:26:56 - FractalBot - INFO -   - /timers: List your active timers
+2025-05-26 23:26:56 - FractalBot - INFO -   - /canceltimer: Cancel one of your active timers
+2025-05-26 23:26:56 - FractalBot - INFO -   - /respect: Give respect to another user
+2025-05-26 23:26:56 - FractalBot - INFO -   - /respectrank: Show respect rankings
+2025-05-26 23:26:56 - FractalBot - INFO -   - /fractalgroup: Create a new fractal group from members in your voice channel
+2025-05-26 23:26:56 - FractalBot - INFO -   - /listgroups: List all active fractal groups in this channel
+2025-05-26 23:26:56 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:26:56 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:27:04 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:27:05 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:28:02 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:31:30 - FractalBot - INFO - === Starting bot setup ===
+2025-05-26 23:31:30 - FractalBot - INFO - Loaded cog: fractal
+2025-05-26 23:31:30 - FractalBot - INFO - Loaded cog: timer
+2025-05-26 23:31:30 - FractalBot - INFO - All cogs loaded successfully
+2025-05-26 23:31:30 - FractalBot - INFO - === Bot setup complete ===
+2025-05-26 23:31:32 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:31:32 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:31:32 - FractalBot - INFO - Syncing commands...
+2025-05-26 23:31:33 - FractalBot - INFO - Registered commands:
+2025-05-26 23:31:33 - FractalBot - INFO -   - /sync: Manually sync commands (owner only)
+2025-05-26 23:31:33 - FractalBot - INFO -   - /timer: Set a timer for a specified duration
+2025-05-26 23:31:33 - FractalBot - INFO -   - /fractalgroup: Create a new fractal group from members in your voice channel
+2025-05-26 23:31:33 - FractalBot - INFO -   - /listgroups: List all active fractal groups in this channel
+2025-05-26 23:31:33 - FractalBot - INFO -   - /timers: List your active timers
+2025-05-26 23:31:33 - FractalBot - INFO -   - /canceltimer: Cancel one of your active timers
+2025-05-26 23:31:33 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:31:33 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:34:07 - FractalBot - INFO - === Starting bot setup ===
+2025-05-26 23:34:07 - FractalBot - INFO - Loaded cog: fractal
+2025-05-26 23:34:07 - FractalBot - INFO - Loaded cog: timer
+2025-05-26 23:34:07 - FractalBot - INFO - All cogs loaded successfully
+2025-05-26 23:34:07 - FractalBot - INFO - === Bot setup complete ===
+2025-05-26 23:34:09 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:34:09 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:34:09 - FractalBot - INFO - Syncing commands...
+2025-05-26 23:34:10 - FractalBot - INFO - Registered commands:
+2025-05-26 23:34:10 - FractalBot - INFO -   - /sync: Manually sync commands (owner only)
+2025-05-26 23:34:10 - FractalBot - INFO -   - /timer: Set a timer for a specified duration
+2025-05-26 23:34:10 - FractalBot - INFO -   - /fractalgroup: Create a new fractal group from members in your voice channel
+2025-05-26 23:34:10 - FractalBot - INFO -   - /listgroups: List all active fractal groups in this channel
+2025-05-26 23:34:10 - FractalBot - INFO -   - /timers: List your active timers
+2025-05-26 23:34:10 - FractalBot - INFO -   - /canceltimer: Cancel one of your active timers
+2025-05-26 23:34:10 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:34:10 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:34:33 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:34:37 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:35:33 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:37:34 - FractalBot - INFO - === Starting bot setup ===
+2025-05-26 23:37:34 - FractalBot - INFO - Loaded cog: fractal
+2025-05-26 23:37:34 - FractalBot - INFO - Loaded cog: timer
+2025-05-26 23:37:34 - FractalBot - INFO - All cogs loaded successfully
+2025-05-26 23:37:34 - FractalBot - INFO - === Bot setup complete ===
+2025-05-26 23:37:36 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:37:36 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:37:36 - FractalBot - INFO - Syncing commands...
+2025-05-26 23:37:36 - FractalBot - INFO - Registered commands:
+2025-05-26 23:37:36 - FractalBot - INFO -   - /sync: Manually sync commands (owner only)
+2025-05-26 23:37:36 - FractalBot - INFO -   - /timer: Set a timer for a specified duration
+2025-05-26 23:37:36 - FractalBot - INFO -   - /fractalgroup: Create a new fractal group from members in your voice channel
+2025-05-26 23:37:36 - FractalBot - INFO -   - /listgroups: List all active fractal groups in this channel
+2025-05-26 23:37:36 - FractalBot - INFO -   - /timers: List your active timers
+2025-05-26 23:37:36 - FractalBot - INFO -   - /canceltimer: Cancel one of your active timers
+2025-05-26 23:37:36 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:37:36 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:37:49 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:37:50 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:37:51 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:40:51 - FractalBot - INFO - === Starting bot setup ===
+2025-05-26 23:40:51 - FractalBot - INFO - Loaded cog: fractal
+2025-05-26 23:40:51 - FractalBot - INFO - Loaded cog: timer
+2025-05-26 23:40:51 - FractalBot - INFO - All cogs loaded successfully
+2025-05-26 23:40:51 - FractalBot - INFO - === Bot setup complete ===
+2025-05-26 23:40:53 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:40:53 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:40:53 - FractalBot - INFO - Syncing commands...
+2025-05-26 23:40:54 - FractalBot - INFO - Registered commands:
+2025-05-26 23:40:54 - FractalBot - INFO -   - /sync: Manually sync commands (owner only)
+2025-05-26 23:40:54 - FractalBot - INFO -   - /timer: Set a timer for a specified duration
+2025-05-26 23:40:54 - FractalBot - INFO -   - /fractalgroup: Create a new fractal group from members in your voice channel
+2025-05-26 23:40:54 - FractalBot - INFO -   - /listgroups: List all active fractal groups in this channel
+2025-05-26 23:40:54 - FractalBot - INFO -   - /timers: List your active timers
+2025-05-26 23:40:54 - FractalBot - INFO -   - /canceltimer: Cancel one of your active timers
+2025-05-26 23:40:54 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:40:54 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:41:17 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:44:55 - FractalBot - INFO - === Starting bot setup ===
+2025-05-26 23:44:55 - FractalBot - INFO - Loaded cog: fractal
+2025-05-26 23:44:55 - FractalBot - INFO - Loaded cog: timer
+2025-05-26 23:44:55 - FractalBot - INFO - All cogs loaded successfully
+2025-05-26 23:44:55 - FractalBot - INFO - === Bot setup complete ===
+2025-05-26 23:44:57 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:44:57 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:44:57 - FractalBot - INFO - Syncing commands...
+2025-05-26 23:44:57 - FractalBot - INFO - Registered commands:
+2025-05-26 23:44:57 - FractalBot - INFO -   - /sync: Manually sync commands (owner only)
+2025-05-26 23:44:57 - FractalBot - INFO -   - /timer: Set a timer for a specified duration
+2025-05-26 23:44:57 - FractalBot - INFO -   - /fractalgroup: Create a new fractal group from members in your voice channel
+2025-05-26 23:44:57 - FractalBot - INFO -   - /listgroups: List all active fractal groups in this channel
+2025-05-26 23:44:57 - FractalBot - INFO -   - /timers: List your active timers
+2025-05-26 23:44:57 - FractalBot - INFO -   - /canceltimer: Cancel one of your active timers
+2025-05-26 23:44:57 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:44:57 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:44:59 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:45:02 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:45:02 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:45:02 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:48:18 - FractalBot - INFO - === Starting bot setup ===
+2025-05-26 23:48:18 - FractalBot - INFO - Loaded cog: fractal
+2025-05-26 23:48:18 - FractalBot - INFO - Loaded cog: timer
+2025-05-26 23:48:18 - FractalBot - INFO - All cogs loaded successfully
+2025-05-26 23:48:18 - FractalBot - INFO - === Bot setup complete ===
+2025-05-26 23:48:20 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:48:20 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:48:20 - FractalBot - INFO - Syncing commands...
+2025-05-26 23:48:21 - FractalBot - INFO - Registered commands:
+2025-05-26 23:48:21 - FractalBot - INFO -   - /sync: Manually sync commands (owner only)
+2025-05-26 23:48:21 - FractalBot - INFO -   - /timer: Set a timer for a specified duration
+2025-05-26 23:48:21 - FractalBot - INFO -   - /fractalgroup: Create a new fractal group from members in your voice channel
+2025-05-26 23:48:21 - FractalBot - INFO -   - /listgroups: List all active fractal groups in this channel
+2025-05-26 23:48:21 - FractalBot - INFO -   - /timers: List your active timers
+2025-05-26 23:48:21 - FractalBot - INFO -   - /canceltimer: Cancel one of your active timers
+2025-05-26 23:48:21 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:48:21 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:48:31 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:48:34 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:48:36 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:55:54 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:55:58 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:56:00 - FractalBot - INFO - Command 'fractalgroup' completed by zaal (ID: 214921134477541377)
+2025-05-26 23:56:07 - FractalBot - INFO - === Starting bot setup ===
+2025-05-26 23:56:07 - FractalBot - ERROR - Failed to load cog fractal: Extension 'cogs.fractal.cog' raised an error: IndentationError: expected an indented block after 'except' statement on line 218 (cog.py, line 220)
+2025-05-26 23:56:07 - FractalBot - INFO - Loaded cog: timer
+2025-05-26 23:56:07 - FractalBot - INFO - All cogs loaded successfully
+2025-05-26 23:56:07 - FractalBot - INFO - === Bot setup complete ===
+2025-05-26 23:56:10 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:56:10 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)
+2025-05-26 23:56:10 - FractalBot - INFO - Syncing commands...
+2025-05-26 23:56:10 - FractalBot - INFO - Registered commands:
+2025-05-26 23:56:10 - FractalBot - INFO -   - /sync: Manually sync commands (owner only)
+2025-05-26 23:56:10 - FractalBot - INFO -   - /timer: Set a timer for a specified duration
+2025-05-26 23:56:10 - FractalBot - INFO -   - /timers: List your active timers
+2025-05-26 23:56:10 - FractalBot - INFO -   - /canceltimer: Cancel one of your active timers
+2025-05-26 23:56:10 - FractalBot - INFO - === Bot Starting Up ===
+2025-05-26 23:56:10 - FractalBot - INFO - Bot: ZAO FRACTAL BOT#2975 (ID: 1363991600723922975)

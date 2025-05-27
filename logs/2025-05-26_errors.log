@@ -1,0 +1,50 @@
+2025-05-26 22:41:14 - FractalBot - ERROR - Failed to load cog ens: Extension 'cogs.ens.cog' raised an error: ImportError: attempted relative import beyond top-level package
+Traceback: None
+2025-05-26 22:41:14 - FractalBot - ERROR - Failed to load cog timer: Extension 'cogs.timer.cog' raised an error: ImportError: attempted relative import beyond top-level package
+Traceback: None
+2025-05-26 22:41:14 - FractalBot - ERROR - Failed to load cog respect: Extension 'cogs.respect.cog' raised an error: ImportError: attempted relative import beyond top-level package
+Traceback: None
+2025-05-26 22:41:14 - FractalBot - ERROR - Failed to load cog fractal: Extension 'cogs.fractal.cog' raised an error: ImportError: attempted relative import beyond top-level package
+Traceback: None
+2025-05-26 22:41:14 - FractalBot - ERROR - Failed to load cog voice: Extension 'cogs.voice.cog' raised an error: ImportError: attempted relative import beyond top-level package
+Traceback: None
+2025-05-26 22:41:14 - FractalBot - ERROR - Failed to load cog zao: Extension 'cogs.zao.cog' raised an error: ImportError: attempted relative import beyond top-level package
+Traceback: None
+2025-05-26 22:41:14 - FractalBot - ERROR - Failed to load cog summary: Extension 'cogs.summary.cog' raised an error: ImportError: attempted relative import beyond top-level package
+Traceback: None
+2025-05-26 22:41:14 - FractalBot - ERROR - Bot is not in any guilds
+Traceback: None
+2025-05-26 22:49:35 - FractalBot - ERROR - Failed to load cog timer: Extension 'cogs.timer.cog' raised an error: ImportError: attempted relative import beyond top-level package
+Traceback: None
+2025-05-26 22:49:35 - FractalBot - ERROR - Failed to load cog fractal: Extension 'cogs.fractal.cog' raised an error: ImportError: attempted relative import beyond top-level package
+Traceback: None
+2025-05-26 22:49:35 - FractalBot - ERROR - Bot is not in any guilds
+Traceback: None
+2025-05-26 22:50:54 - FractalBot - ERROR - Bot is not in any guilds
+Traceback: None
+2025-05-26 22:54:32 - FractalBot - ERROR - Bot is not in any guilds
+Traceback: None
+2025-05-26 22:56:21 - FractalBot - ERROR - Bot is not in any guilds
+Traceback: None
+2025-05-26 23:02:32 - FractalBot - ERROR - Failed to load cog respect: Extension 'cogs.respect.cog' raised an error: NameError: name 'app_commands' is not defined
+Traceback: None
+2025-05-26 23:02:32 - FractalBot - ERROR - Bot is not in any guilds
+Traceback: None
+2025-05-26 23:04:13 - FractalBot - ERROR - Failed to load cog respect: Extension 'cogs.respect.cog' raised an error: NameError: name 'app_commands' is not defined
+Traceback: None
+2025-05-26 23:04:13 - FractalBot - ERROR - Bot is not in any guilds
+Traceback: None
+2025-05-26 23:04:49 - FractalBot - ERROR - Bot is not in any guilds
+Traceback: None
+2025-05-26 23:09:17 - FractalBot - ERROR - Bot is not in any guilds
+Traceback: None
+2025-05-26 23:10:25 - FractalBot - ERROR - Bot is not in any guilds
+Traceback: None
+2025-05-26 23:17:39 - FractalBot - ERROR - Bot is not in any guilds
+Traceback: None
+2025-05-26 23:20:09 - FractalBot - ERROR - Bot is not in any guilds
+Traceback: None
+2025-05-26 23:23:40 - FractalBot - ERROR - Bot is not in any guilds
+Traceback: None
+2025-05-26 23:56:07 - FractalBot - ERROR - Failed to load cog fractal: Extension 'cogs.fractal.cog' raised an error: IndentationError: expected an indented block after 'except' statement on line 218 (cog.py, line 220)
+Traceback: None
