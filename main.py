@@ -37,12 +37,22 @@ class FractalBot(commands.Bot):
         self.logger.info("=== Starting bot setup ===")
         
         try:
-            # Load only fractal and timer cogs
-            cogs = ['fractal', 'timer']
-            for cog_name in cogs:
+            # Load cogs with new naming convention
+            cog_modules = {
+                'fractal': 'fractal_cog',
+                'timer': 'timer_cog',
+                'ens': 'ens_cog',
+                'respect': 'respect_cog'
+            }
+            
+            # Only load selected cogs for now
+            active_cogs = ['fractal', 'timer']
+            
+            for cog_name in active_cogs:
                 try:
-                    await self.load_extension(f"cogs.{cog_name}.cog")
-                    self.logger.info(f"Loaded cog: {cog_name}")
+                    module_name = cog_modules.get(cog_name)
+                    await self.load_extension(f"cogs.{cog_name}.{module_name}")
+                    self.logger.info(f"Loaded cog: {cog_name} from {module_name}")
                 except Exception as e:
                     self.logger.error(f"Failed to load cog {cog_name}: {e}")
             
